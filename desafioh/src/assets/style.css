@@ -1,0 +1,82 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+button {
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 2%;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+
+img {
+  width: 50%;
+  border-radius: 10%;
+}
+
+
+
+li {
+ display: inline-block;
+ padding: 2px;
+ align-items: center;
+ justify-content: center;
+ margin-left: 8%;
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft 0.3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}
+
+.contatoimage  {
+  width: 400px;
+  height: 450px;
+  margin-left: 10%;
+}
+
+.lista {
+ float: right;
+ margin-right: 50%;
+}
+
+
+ .listacontato{
+  list-style: circle; 
+
+}
+
+.listacontato li {
+  display: list-item;
+}
+
+.fotoid {
+  width: 20%;
+  margin-left: 10%;
+}
+
+.descricao {
+  float: right;
+  margin-right: 25%;
+}
+
+.preco {
+  width: 15%;
+  height: 30px;
+  text-align: center;
+  background-color: greenyellow;
+  border-radius: 10px;
+}
