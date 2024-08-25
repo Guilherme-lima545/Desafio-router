@@ -1,6 +1,6 @@
 {
   "name": "desafioh",
-  "homepage": "https://github.com/Guilherme-lima545/Desafio-router.git",
+  "homepage": "https://Guilherme-lima545.github.io/Desafio-router",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -21,7 +21,7 @@
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.26.0",
-      "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
